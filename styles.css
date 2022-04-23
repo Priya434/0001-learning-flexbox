@@ -1,0 +1,391 @@
+/* CSS Reset Starts */
+
+html, body, div, p, h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd, form, fieldset, caption,
+table, tr, td, th, address, blockquote, img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img, fieldset {
+  border: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  flex: 1 0 auto;
+}
+
+hr {
+  display: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body, button, input, table, textarea, select {
+  font: normal 1em/1.5 arial, helvetica, sans-serif;
+}
+
+/* CSS Reset Ends */
+
+/* Site CSS Starts */
+
+body {
+  /* padding: 0 10em; */
+  /* background-color: #0b59de; */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav-Bar CSS */
+
+.nav-bar {
+  background-color: #0b59de;
+  padding: 1em 15em;
+  /* border-radius: 0.5em; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.nav-bar-2 {
+  display: none;
+}
+
+.nav-bar img {
+  width: 2.5rem;
+  background-color: #fff;
+  border-radius: 100%;
+  flex: 0;
+}
+
+.nav-bar h1 {
+  font-size: 1.5rem;
+  color: #e7ba5b;
+  flex: 0 1 auto;
+}
+
+.nav-bar a {
+  color: #e7ba5b;
+  padding: 0.1em;
+}
+
+.nav-bar a:hover {
+  background-color: #347fff;
+}
+
+.search-menu {
+  display: flex;
+}
+
+.site-search-input {
+  margin-left: auto;
+  max-width: 30rem;
+  border: 0;
+  border-radius: 1em 0 0 1em;
+  padding-left: 1em;
+}
+
+.site-search-button:active {
+  background-color: #e7ba5b;
+}
+
+.site-search-button {
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 0 1em 1em 0;
+  border: 0;
+  max-width: 2em;
+}
+
+.nav-bar-1 .nav-bar-links-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1em;
+  margin-left: auto;
+  flex: 0 1 auto;
+}
+
+
+/* Main CSS */
+
+/* Intro-section */
+.intro-section {
+  background-color: #0b59de;
+  display: flex;
+  padding: 4em 15em;
+}
+
+.intro-section-writing {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-section h1 {
+  color: #FFDB57;
+  font-size: 2rem;
+}
+
+.intro-section p {
+  color: #ffdb57;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin: 0.5rem 0;
+}
+
+.sign-up-button {
+  background-color: #ffdb57;
+  border: 3px solid #0b59de;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  padding: 0.1em 0.5em;
+  margin: 0.5rem 0;
+  flex: 0 1 auto;
+}
+
+.sign-up-button:active {
+  border: 3px solid #ffdb57;
+}
+
+.intro-section img {
+  width: 20rem;
+  height: 10rem;
+  background-color: #afafaf;
+  flex: 0 1 auto;
+  margin: auto;
+}
+
+/* Cards section */
+.cards-section {
+  background-color: #ffdb57;
+  padding: 1em 20em 3em;
+  text-align: center;
+  color: #0b59de;
+}
+
+.cards-section h2 {
+  padding: 1em 0 2em;
+}
+
+.cards-section-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.cards-section-card {
+  border: 2px solid #000;
+  width: 100px;
+  height: 100px;
+  flex: 0 1 auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.cards-section-card p {
+  margin-top: 75px;
+}
+
+/* testimonials-section */
+.testimonials-section {
+  background-color: #0b59de;
+  color: #ffdb57;
+  padding: 1em 20em 3em;
+}
+
+.testimonials-section h2 {
+  padding: 1em 0 1em;
+  text-align: center;
+}
+
+.testimonials-section-testimonials {
+  display: flex;
+  gap: 1em;
+}
+
+.testimonials-section-testimonials p {
+  text-align: left;
+  flex: 1;
+  max-width: 20rem;
+  margin: auto auto auto 0;
+}
+
+.testimonials-section-testimonials img {
+  background-color: #afafaf;
+  border-radius: 100%;
+  flex: 0 1 auto;
+  width: 5rem;
+  height: 5rem;
+  margin: auto 0 auto auto;
+}
+
+/* sign-up-section */
+.sign-up-section {
+  background-color: #ffdb57;
+  padding: 3em 15em;
+}
+
+.sign-up-section-wrapper {
+  background-color: #0b59de;
+  border-radius: 10px;
+  color: #ffdb57;
+  align-items: center;
+  padding: 1em 5em;
+  display: flex;
+  gap: 2em;
+}
+
+.sign-up-section-wrapper-writing p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* footer */
+footer {
+  background-color: #0b59de;
+  color: #ffdb57;
+  padding: 1em 15em;
+  text-align: center;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1000px) {
+  .nav-bar {
+    padding: 1em 3em;
+  }
+
+  .nav-bar h1 {
+    font-size: 1.1rem;
+  }
+
+  .intro-section {
+    padding: 2em 3em;
+  }
+
+  .intro-section img {
+    width: 15rem;
+  }
+
+  .cards-section {
+    padding: 2em 3em;
+  }
+
+  .testimonials-section {
+    padding: 2em 3em;
+  }
+
+  .sign-up-section {
+    padding: 4em 3em;
+  }
+
+  footer {
+    padding: 0.5em 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar {
+    padding: 1em 1em;
+  }
+
+  .nav-bar h1 {
+    font-size: 1rem;
+  }
+
+  .nav-bar-1 {
+    display: none;
+  }
+
+  .nav-bar-2 {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .nav-bar-2 #nav-bar-links-2 {
+    display: none;
+  }
+
+  .nav-bar-2 .nav-bar-links-2 {
+    display: flex !important;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+    flex: 0 1 auto;
+  }
+
+  .nav-bar img {
+    display: none;
+  }
+
+  .site-search-input {
+    max-width: 10rem;
+  }
+
+  .intro-section {
+    padding: 1em 1em;
+    flex-flow: column nowrap;
+  }
+
+  .intro-section-writing {
+    position: relative;
+    top: 160px;
+    margin: auto;
+  }
+
+  .intro-section img {
+    position: relative;
+    bottom: 210px;
+    width: 10rem;
+  }
+
+  .cards-section {
+    padding: 1em 1em;
+  }
+
+  .cards-section-cards {
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .testimonials-section {
+    padding: 1em 1em;
+  }
+
+  .sign-up-section {
+    padding: 3em 1em;
+  }
+
+  .sign-up-section-wrapper {
+    padding: 1em 1em;
+  }
+
+  .sign-up-section-wrapper-writing {
+    width: 150px;
+  }
+
+  .sign-up-section-wrapper .sign-up-button {
+    margin: 0;
+  }
+
+  footer {
+    padding: 0.5em 1em;
+  }
+}
