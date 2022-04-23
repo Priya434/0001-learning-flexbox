@@ -229,9 +229,8 @@ a {
   background-color: #afafaf;
   border-radius: 100%;
   flex: 0 1 auto;
-  width: 5rem;
-  height: 5rem;
-  margin: auto 0 auto auto;
+  width: 10rem;
+  height: 10rem;
 }
 
 /* sign-up-section */
@@ -367,6 +366,11 @@ footer {
 
   .testimonials-section {
     padding: 1em 1em;
+  }
+
+  .testimonials-section-testimonials img {
+    width: 5rem;
+    height: 5rem;
   }
 
   .sign-up-section {
